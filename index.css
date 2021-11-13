@@ -1,0 +1,223 @@
+a {
+               font-family         : "Courier New", Courier, mono;
+               font-size           : 12px;
+               color               : #FFF;
+               }
+body {
+               color               : #CCC;
+               font-family         : verdana, arial, helvetica, sans-serif;
+               font-size           : 12px;
+               margin              : 50px auto 50px 50px;
+               padding             : 0px 0px 0px 0px;
+               text-align          : left;
+               }
+img {
+               border              : 0px;
+               }
+div.main {
+/*               border              : 1px dashed yellow;/**/
+               text-align          : left;
+               width               : 700px;
+               }
+.right {
+               color               : #777;
+               float               : right;
+               font-size           : 10px;
+               margin              : 18px -3px auto auto;
+               text-align          : right;
+               }
+#bottomLeft {
+               background          : #000;
+/*               border              : 1px solid red;/**/
+               border-color        : #777;
+               border-style        : solid;
+               border-width        : 1px 0px 1px 1px;/**/
+               float               : left;
+               margin              : 0px 0px 0px 0px;
+               padding             : auto;
+               width               : 25px;
+               }
+#bottomLeft a {
+               background          : white;
+               color               : transparent;
+               display             : block;
+               font-size           : 0px;
+               height              : 100px;
+               width               : 25px;
+               }
+#bottomLeft a.hike {
+               background          : transparent url(grif/hike.jpg) -25px 0px no-repeat;
+               }
+#bottomLeft a.hike:hover {
+               background          : transparent url(grif/hike.jpg) 0px 0px no-repeat;
+               }
+#bottomLeft a.home {
+               background          : transparent url(grif/lighthouse.jpg) -25px 0px no-repeat;
+               }
+#bottomLeft a.home:hover {
+               background          : transparent url(grif/lighthouse.jpg) 0px 0px no-repeat;
+               }
+#bottomLeft a.info {
+               background          : transparent url(grif/oaktree.jpg) -25px 0px no-repeat;
+               }
+#bottomLeft a.info:hover {
+               background          : transparent url(grif/oaktree.jpg) 0px 0px no-repeat;
+               }
+#bottomLeft a.weather {
+               background          : transparent url(grif/lightning.jpg) -25px 0px no-repeat;
+               }
+#bottomLeft a.weather:hover {
+               background          : transparent url(grif/lightning.jpg) 0px 0px no-repeat;
+               }
+#bottomRight {
+               background          : #000 url(grif/corner.jpg) no-repeat;
+/*               border              : 1px solid red;/**/
+               border-color        : #777;
+               border-style        : solid;
+               border-width        : 1px 1px 1px 1px; /**/
+               float               : left;
+               min-height          : 350;
+               margin              : 0px 0px 50px 0px;
+               padding             : 10px;
+               text-align          : left;
+               width               : 600px;
+/*               width               : 385px; /* <-- this is the width of the corner image*/
+               }
+#bottomTool {
+               border              : 0px solid red;/**
+               border-color        : #777;
+               border-style        : solid;
+               border-width        : 1px 1px 1px 1px; /**/
+               display             : block;
+               float               : left;
+               height              : 0px;
+               margin              : 0px 0px 50px 0px;
+               width               : 600px;
+/*               width               : 385px; /* <-- this is the width of the corner image*/
+               }
+#bRMain {
+               background          : #757575 url(grif/corner-shaded.jpg) -61px -51px no-repeat;
+/*               border              : 1px solid red;/**/
+               border-color        : #CCC;
+               border-style        : solid;
+               border-width        : 1px 1px 1px 1px;  /**/
+               min-height          : 300px;
+               margin              : 50px 0px 0px 50px;
+               padding             : 0px 5px 10px 10px;
+               text-align          : justify;
+               }
+#top {
+               height              : 26px;
+               }
+#topLeft {
+/*               border              : 1px solid red;/**
+               border-color        : #777;
+               border-style        : solid;
+               border-width        : 0px 0px 0px 0px;  /**/
+               float               : left;
+               height              : 26px;
+               margin              : 0px 0px 0px 0px;
+               padding             : auto;
+               text-align          : right;
+               width               : 26px;
+               }
+#topRight {
+               background          : transparent;
+               /*border              : 1px solid red;/**/
+               border-color        : #777;
+               border-style        : solid;
+               border-width        : 0px 0px 0px 1px;  /**/
+               float               : left;
+               height              : 26px;
+               padding             : auto auto auto auto;
+               text-align          : right;
+               width               : 500px;
+               }
+#topRight a {
+               background          : red;
+               /*border              : 1px solid red;/**/
+               border-color        : #777;
+               border-style        : solid;
+               border-width        : 1px 0px 0px 0px;  /**/
+               color               : transparent;
+               display             : block;
+               float               : left;
+               font-size           : 0px;
+               height              : 26px;
+               padding             : -50px auto auto auto;
+               position            : relative;
+               width               : 25px;
+               }
+#topRight a.otherward {
+               background          : transparent url(grif/otherward.jpg) -25px 0px no-repeat;
+               border-width        : 1px 1px 0px 0px;
+               }
+#topRight a.otherward:hover {
+               background          : transparent url(grif/otherward.jpg) 0px 0px no-repeat;
+               }
+#topRight a.falling {
+               background          : transparent url(http://fearoffalling.net/include/footer.jpg) -395px -25px no-repeat;
+               border-width        : 1px 1px 0px 0px;
+               }
+#topRight a.falling:hover {
+               background          : transparent url(http://fearoffalling.net/include/footer.jpg) -430px -25px no-repeat;
+               }
+#topRight a.waytall {
+               background          : transparent url(grif/waytall.jpg) -25px 0px no-repeat;
+               border-width        : 1px 1px 0px 0px;
+               }
+#topRight a.waytall:hover {
+               background          : transparent url(grif/waytall.jpg) 0px 0px no-repeat;
+               }
+#topRight a.wixa {
+               background          : transparent url(grif/wixa.jpg) -25px 0px no-repeat;
+               border-width        : 1px 1px 0px 0px;
+               }
+#topRight a.wixa:hover {
+               background          : transparent url(grif/wixa.jpg) 0px 0px no-repeat;
+               }
+#topRight a.yablo {
+               background          : transparent url(grif/yablo.jpg) -25px 0px no-repeat;
+               border-width        : 1px 1px 0px 0px;
+               }
+#topRight a.yablo:hover {
+               background          : transparent url(grif/yablo.jpg) 0px 0px no-repeat;
+               }
+#topRight a.slashdot {
+               background          : transparent url(grif/slashdot.jpg) -25px 0px no-repeat;
+               border-width        : 1px 1px 0px 1px;
+               left                : +5px;
+               }
+#topRight a.slashdot:hover {
+               background          : transparent url(grif/slashdot.jpg) 0px 0px no-repeat;
+               }
+#topRight a.weather {
+               background          : transparent url(grif/weather.jpg) -25px 0px no-repeat;
+               border-width        : 1px 1px 0px 1px;
+               left                : +10px;
+               }
+#topRight a.weather:hover {
+               background          : transparent url(grif/weather.jpg) 0px 0px no-repeat;
+               }
+#topRight a.movie {
+               background          : transparent url(grif/movie.jpg) -25px 0px no-repeat;
+               border-width        : 1px 1px 0px 0px;
+               left                : +10px;
+               }
+#topRight a.movie:hover {
+               background          : transparent url(grif/movie.jpg) 0px 0px no-repeat;
+               }
+#topRight a.bling {
+               background          : transparent url(grif/bling.jpg) -25px 0px no-repeat;
+               border-width        : 1px 1px 0px 0px;
+               left                : +10px;
+               }
+#topRight a.bling:hover {
+               background          : transparent url(grif/bling.jpg) 0px 0px no-repeat;
+               }
+#topRight a.mail {
+               background          : transparent url(grif/newmail.jpg) 0px 0px no-repeat;
+               border-width        : 0px 0px 0px 0px;
+               left                : +10px;
+               top                 : +15px;
+               }

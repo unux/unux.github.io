@@ -1,0 +1,27 @@
+a            { font-family         : "Courier New", Courier, mono; 
+               font-size           : 12px; 
+               color               : #FFF; 
+               text-decoration     : none;
+               }
+body         { 
+	          background                    : #200;
+               color                         : #777;
+               font-family                   : verdana, arial, helvetica, sans-serif;
+               font-size                     : 12px; 
+               padding                       : 0px 0px 0px 0px;
+               scrollbar-arrow-color         : #DDD; 
+               scrollbar-3dlight-color       : #111; 
+               scrollbar-highlight-color     : #555; 
+               scrollbar-face-color          : #333; 
+               scrollbar-shadow-color        : #111; 
+               scrollbar-track-color         : #000; 
+               scrollbar-darkshadow-color    : #111;
+               }
+.right   { 
+               color               : #777;
+               float               : right;
+               font-size           : 10px;
+               text-align          : right;
+               }
+.hidden      { display             : none; 
+               }
